@@ -23,7 +23,9 @@ st.markdown(
 )
 
 # image_path = 'sample_images/hang-niu-Tn8DLxwuDMA-unsplash.jpg'
-model = load_model('cat_and_dog_classifier.h5')  # model weights file
+@st.cache
+def load_model():
+    load_model('cat_and_dog_classifier.h5')  # model weights file
 # print(model.summary())
 
 

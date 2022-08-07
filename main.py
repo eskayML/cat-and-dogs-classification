@@ -27,7 +27,7 @@ st.markdown(
 def load_model():
     load_model('cat_and_dog_classifier.h5')  # model weights file
 # print(model.summary())
-
+model = load_model()
 
 def test_image(object_image):
     # Convert the file to an opencv image.

@@ -10,7 +10,7 @@ A machine learning project for classifying images of cats and dogs
 <br>
 - Checked the performance on the test data
 <br>
-- I deployed it on Streamlit
+- I deployed it on Streamlit share
 
 ## HOW TO USE THE APP
 ```console

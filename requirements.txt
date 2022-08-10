@@ -1,4 +1,2 @@
-tensorflow
 numpy
 streamlit
-opencv-python

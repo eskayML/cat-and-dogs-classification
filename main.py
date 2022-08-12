@@ -24,12 +24,12 @@ st.markdown(
 
 # image_path = 'sample_images/hang-niu-Tn8DLxwuDMA-unsplash.jpg'
 @st.cache
-def load_model():
-    load_model('cat_and_dog_classifier.h5')  # model weights file
+def load_model_weights():
+    return load_model('cat_and_dog_classifier.h5')  # model weights file
 # print(model.summary())
 
 
-model = load_model()
+model = load_model_weights()
 
 def test_image(object_image):
     # Convert the file to an opencv image.

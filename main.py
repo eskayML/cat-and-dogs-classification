@@ -23,13 +23,8 @@ st.markdown(
 )
 
 # image_path = 'sample_images/hang-niu-Tn8DLxwuDMA-unsplash.jpg'
-@st.cache
-def load_model_weights():
-    return load_model('cat_and_dog_classifier.h5')  # model weights file
-# print(model.summary())
 
-
-model = load_model_weights()
+model = load_model('cat_and_dog_classifier.h5')
 
 def test_image(object_image):
     # Convert the file to an opencv image.
@@ -46,7 +41,6 @@ def test_image(object_image):
     else:
         result = 'CAT'
         confidence = 100 - (predictions[0, 0].round(3) * 100)
-        
 
     return result, confidence
     # it returns the predicted label and the precision i.e the confidence score

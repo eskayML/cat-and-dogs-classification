@@ -1,10 +1,10 @@
 # cat-and-dogs-classification
 A machine learning project for classifying images of cats and dogs
-> It makes use of a dataset containing 25000 images of cats and dogs 
+> Curated a dataset containing 25000 images of cats and dogs 
 
 ## STEPS  I TOOK BUILDING THE APPLICATION:
 <hr>
-- I built a model using transfer learning with the popular "Xception" model
+- I built a model using convnets architecture and applied techniques like data augmentation and transfer learning 
 <br>
 - I then fitted the model to a larger portion of the data (training set). Note that I used a smaller portion for testing/validation 
 <br>

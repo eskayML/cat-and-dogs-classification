@@ -10,7 +10,7 @@ A machine learning project for classifying images of cats and dogs
 <br>
 - Checked the performance on the test data
 <br>
-- I built an app for the model using streamlit 
+- I built an app for the model using streamlit and deployed it to hugging face spaces
 
 ## HOW TO USE THE APP
 ```console

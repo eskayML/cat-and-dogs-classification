@@ -1,4 +1,7 @@
 # cat-and-dogs-classification
+
+View [Live](https://huggingface.co/spaces/eskayML/cat-and-dog-classifier)
+
 A machine learning project for classifying images of cats and dogs
 > Curated a dataset containing 25000 images of cats and dogs 
 

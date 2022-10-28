@@ -15,7 +15,17 @@ A machine learning project for classifying images of cats and dogs
 <br>
 - I built an app for the model using streamlit and deployed it to hugging face spaces
 
-## HOW TO USE THE APP
+## HOW TO USE THE APP LOCALLY
+
+```console
+$ git clone https://github.com/eskayML/cat-and-dogs-classification
+
+```
+```console
+$ cd cat-and-dogs-classification
+
+```
+
 ```console
 $ pip install -r requirements.txt
 
